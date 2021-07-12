@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline-block;
+}
+
+body {
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+#message-form textarea {
+  padding: 15px;
+}
+
+.primaryBtn {
+  padding: 7.5px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: blue;
+  color: white;
+  margin: 15px 30px 15px 0px;
+  display: inline-block;
+}
+
+.primaryBtn:hover {
+  cursor: pointer;
+}
+
+.primaryBtn:focus {
+  transform: scale(1.1, 1.1);
+}
